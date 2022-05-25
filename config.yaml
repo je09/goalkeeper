@@ -1,0 +1,17 @@
+web:
+  app_port: 8080
+
+proxy:
+  app_address: "http://localhost:80"
+  waf_port: 8888
+
+db:
+  user: "root"
+  pass: "pass"
+  address: "psgl://"
+  port: 5432
+
+modsec:
+  coroza_conf: "/Users/je09/Documents/code/Go/Goalkeeper/coroza.conf"
+  modsec_ruleset_setup: "/Users/je09/Documents/code/Go/Goalkeeper/coreruleset/crs-setup.conf.example"
+  modesec_ruleset: "/Users/je09/Documents/code/Go/Goalkeeper/coreruleset/rules/*.conf"

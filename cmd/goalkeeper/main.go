@@ -1,5 +1,7 @@
 package main
 
-func main() {
+import "Goalkeeper/internal/goalkeeper"
 
+func main() {
+	goalkeeper.Start()
 }
